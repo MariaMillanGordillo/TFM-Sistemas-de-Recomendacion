@@ -2,7 +2,7 @@
 
 Este repositorio contiene el desarrollo de mi Trabajo de Fin de Máster, centrado en la implementación y comparación de distintos sistemas de recomendación aplicados al dominio de libros.
 
-🔗 **[Accede aquí a todos los archivos del proyecto (Drive)](https://drive.google.com/drive/folders/1y64_CbGNa2sTUNR5jsw9YXekIxg7YSsQ?usp=share_link)**
+🔗 **[Accede aquí a todos los archivos del proyecto (Drive)](https://drive.google.com/drive/folders/1SwLuxdjeabNd-NEt4kJ2-HfGH3yo3OFV?usp=share_link)**
 
 ⚠️ Debido a las limitaciones de tamaño de GitHub, algunos archivos no están subidos en este repositorio, pero están disponibles en el enlace anterior.
 
@@ -12,7 +12,7 @@ Este repositorio contiene el desarrollo de mi Trabajo de Fin de Máster, centrad
 
 ### 🔎 1. CBF – Filtrado Basado en Contenido
 
-Modelo que utiliza información del contenido (géneros, autores, sinopsis) para recomendar libros similares.
+Modelo que utiliza información del contenido (título, géneros, autores) para recomendar libros similares.
 
 * `CBF.ipynb`
 
@@ -33,8 +33,8 @@ Modelo basado en las interacciones usuario-libro, usando LightGCN.
 
 Combinación de CBF y CF para mejorar las recomendaciones.
 
-* `Híbrido_Aumento.ipynb` – Mejora de CBF con retroalimentación de usuarios
-* `Híbrido_Combinación.ipynb` – Combinación de embeddings CBF y CF con una MLP
+* `Híbrido_Aumento.ipynb` – Inicialización de embeddings de LigthGCN con información de contenido (CBF).
+* `Híbrido_Combinación.ipynb` – Combinación de embeddings CBF y CF con una MLP.
 * `HA_model.pth`
 * `HA_embeddings.pt`
 * `HC_model.pth`
@@ -48,7 +48,7 @@ Archivos procesados y originales del dataset de Goodreads.
 * `goodreads_books_young_adult.json`
 * `goodreads_book_authors.json.gz`
 * `goodreads_book_genres_initial.json.gz`
-* `interactions_filtered.csv` - Version filtrada de `goodreads_interactions.csv`
+* `interactions_filtered.csv` - Version filtrada de `goodreads_interactions.csv`.
 * `user_id_map.csv`
 * `book_id_map.csv`
 * `books_authors_genres.csv`
