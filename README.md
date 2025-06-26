@@ -96,16 +96,23 @@ Aplicación interactiva desarrollada con Streamlit para visualizar recomendacion
 ## 🛠 Requisitos
 
 Este proyecto ha sido desarrollado en Python. Se recomienda usar un entorno virtual.
-Puedes instalar las dependencias necesarias con:
+
+Puedes instalar las dependencias necesarias con alguna de las siguientes opciones:
+
+- Usando pip y el archivo `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
+```
+- Usando Conda y el archivo `environment.yml` para crear un entorno con todas las dependencias específicas:
+```bash
+conda env create -f environment.yml
+conda activate nombre_del_entorno
 ```
 
 ---
 
 ## 💡 Créditos y Contacto
 
-Trabajo desarrollado por **María**, como parte del Trabajo de Fin de Máster en \[nombre del máster o institución si deseas incluirlo].
+Trabajo desarrollado por **María Millán Gordillo**, como parte del Trabajo de Fin de Máster en Inteligencia Artificial.
 
-Si tienes dudas o sugerencias, no dudes en contactarme o abrir un *issue* en este repositorio.
