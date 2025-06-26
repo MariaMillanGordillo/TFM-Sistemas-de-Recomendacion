@@ -45,14 +45,10 @@ Combinación de CBF y CF para mejorar las recomendaciones.
 
 Archivos procesados y originales del dataset de Goodreads.
 
-* `goodreads_books.json.gz`
+* `goodreads_books_young_adult.json`
 * `goodreads_book_authors.json.gz`
 * `goodreads_book_genres_initial.json.gz`
-* `goodreads_reviews_dedup.json.gz`
-* `goodreads_books_young_adult.json`
-* `goodreads_interactions_young_adult.json`
-* `goodreads_interactions.csv`
-* `interactions_filtered.csv`
+* `interactions_filtered.csv` - Version filtrada de `goodreads_interactions.csv`
 * `user_id_map.csv`
 * `book_id_map.csv`
 * `books_authors_genres.csv`
